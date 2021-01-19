@@ -82,12 +82,7 @@
         </ul>
       </section>
     </article>
-    <footer>
-      <p>
-        © Copyright 2019 │ Masayoshi Kawashima a.k.a. ma-ya’s CREATE All rights
-        reserved.
-      </p>
-    </footer>
+    <Footer/>
   </div>
 </template>
 
