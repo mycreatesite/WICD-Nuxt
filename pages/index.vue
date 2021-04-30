@@ -85,17 +85,18 @@ p {
     z-index: -1;
     bottom: 0;
     left: 50%;
-    transform: translate(-50%, 0) scale(1);
+    transform: translateX(-50%);
     display: block;
     width: auto;
     height: 79vh;
-    animation: mv-fade 1.2s cubic-bezier(0.86, 0, 0.07, 1) 1s backwards;
+    animation: mv-fade 2.5s cubic-bezier(0.86, 0, 0.07, 1) .5s backwards;
   }
 }
 @keyframes mv-fade {
   0% {
+    transform: translateX(-47%) scale(1.3);
+    filter: blur(4px);
     opacity: 0;
-    transform: translate(-35%, 10%) scale(1.5);
   }
 }
 @keyframes text-in {
