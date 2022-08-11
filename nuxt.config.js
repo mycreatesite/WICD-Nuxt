@@ -19,6 +19,12 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/img/favicon.ico' }
     ]
   },
+  
+  pwa: {
+    manifest: {
+      lang: 'ja',
+    },
+  },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
